@@ -1,127 +1,15 @@
-# Simplify System
 
-A cooperative information system built with Flutter (mobile) and Node.js + Prisma ORM (backend).
+## 🌐 Socials:
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:angellineputri@gmail.com) 
 
----
-
-## Tech Stack
-
-- **Frontend**: Flutter
-- **Backend**: Node.js + Express
-- **ORM**: Prisma
-- **Database**: Microsoft SQL Server
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Mocha](https://img.shields.io/badge/-mocha-%238D6748?style=for-the-badge&logo=mocha&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=angellineputri&theme=default&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=angellineputri&theme=default&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=angellineputri&theme=default&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
+[![](https://visitcount.itsvg.in/api?id=angellineputri&icon=0&color=10)](https://visitcount.itsvg.in)
 
-## Project Structure
-
-```
-root/
-├── backend/
-│   ├── server.js
-│   ├── prisma/
-│   │   └── schema.prisma
-│   ├── .env.example
-│   └── package.json
-└── flutter_project/
-    ├── lib/
-    ├── pubspec.yaml
-    └── ...
-```
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) v18+
-- [Flutter](https://flutter.dev/) SDK
-- Access to the SQL Server database (ask the team for credentials)
-
----
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
-```
-
----
-
-### 2. Backend Setup
-
-```bash
-cd backend
-npm install
-npx prisma generate
-```
-
-Create your `.env` file from the example:
-
-```bash
-cp .env.example .env
-```
-
-Then open `.env` and fill in the real values:
-
-```
-DB_SERVER=your_server_ip
-DB_PORT=your_port
-DB_USER=your_username
-DB_PASSWORD=your_password
-DB_NAME=your_database_name
-DATABASE_URL="sqlserver://your_server_ip:your_port;database=your_database_name;user=your_username;password=your_password;trustServerCertificate=true;encrypt=false"
-```
-
-Run the backend:
-
-```bash
-node server.js
-```
-
-You should see:
-```
-Server running on port 3000
-```
-
-Verify it's working:
-```bash
-curl http://localhost:3000/
-# expected: {"status":"ok"}
-```
-
----
-
-### 3. Flutter Setup
-
-```bash
-cd flutter_project
-flutter pub get
-flutter run
-```
-
----
-
-## Environment Variables
-
-Never commit `.env` — it contains sensitive credentials. Use `.env.example` as a reference.
-
-| Variable | Description |
-|---|---|
-| `DB_SERVER` | SQL Server IP address |
-| `DB_PORT` | SQL Server port |
-| `DB_USER` | Database username |
-| `DB_PASSWORD` | Database password |
-| `DB_NAME` | Database name |
-| `DATABASE_URL` | Full Prisma connection string |
-
----
-
-## Notes
-
-- `node_modules/` and `.env` are gitignored — never push them
-- After cloning, always run `npm install` and `npx prisma generate` before starting the backend
-- After cloning, always run `flutter pub get` before running the Flutter app
-- Contact the team to get the actual `.env` credentials
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
