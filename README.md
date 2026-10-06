@@ -16,6 +16,8 @@ I am concurrently enrolled in a Bachelor of Computer Science and 42 School Singa
 | [Tally](https://github.com/angellineputri/tally) | Finance application |
 | [Dungeon Generator](https://github.com/angellineputri/dungeon_generator) | Procedural dungeon and roguelike generator |
 | [City of Lies](https://github.com/angellineputri/detectivegame) | Detective mystery game |
+| [Transcendence](https://github.com/angellineputri/Transcendence) | Team web app with games, built with 5 people |
+| [Swifty Companion](https://github.com/angellineputri/swifty-companion) | Flutter mobile app that uses the 42 API |
 | [42 Common Core](https://github.com/angellineputri/42-Common-Core) | C and C++ projects from 42 Singapore, from libft to webserv |
 
 ## 🛠️ Skills
